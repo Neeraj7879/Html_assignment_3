@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Promact Assignment 3 </title>
+        <style> 
+            input { 
+                width:60%; 
+                height:30px; 
+            } 
+
+            button { 
+                background-color:silver; 
+                color:black; 
+                border:none; 
+                border-radius:3px; 
+                font-size:15px; 
+                padding:5px; 
+                    
+            } 
+            .class1{
+                font-weight: normal;
+            }
+
+            label{
+                font-weight:900;
+                font-size: 17px;
+            }
+
+            body { 
+                width:41%; 
+            } 
+        </style> 
+    </head> 
+    <body>  
+        <form> 
+        <form action="#" id="userform"> 
+        <div class="container">  
+            <label for="first_Name">First Name :</label>
+            <br> 
+            <input type="text" placeholder="First Name" name="first_Name" required> 
+            
+            <br><br>
+            
+            <label for="last_Name">Last Name :</label>
+            <br> 
+            <input type="text" placeholder="Last Name" name="last_Name" required> 
+            
+            <br><br>
+            
+            <label for="email">Email :</label>
+            <br> 
+            <input type="text" placeholder="Enter Email" name="email" required> 
+            
+            <br><br>
+            
+            <label for="contact_Number">Contact Number :</label>
+            <br> 
+            <input type="text" placeholder="Contact Number" name="contact_Number" required> 
+            
+            <br><br>
+            
+            <label for="Address">Address :</label>
+            <br> 
+            <textarea rows="4" cols="50" name="Address" form="userform"> </textarea>
+            
+            <br><br>
+            
+            <label for="Uid">Username :</label>
+            <br> 
+            <input type="text" placeholder="Username" name="Uid" required> 
+            
+            <br><br>
+            
+            <label for="psw">Password :</label>
+            <br>
+            <input type="password" placeholder="Enter Password" name="psw" required> 
+            
+            <br><br>
+            
+            <label for="gender">Gender :</label>
+            <br>
+            <input style="width: 20px; height:20px;" type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label><br>
+            <input style="width: 20px; height:20px;" type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+            
+            <br><br>
+            
+            <label for="Qualification">Qualification :</label>
+            <br>
+            <select name="Qualification" id="Qualification">
+                <option value="0">--Select--</option>
+                <option value="B.Technology">B.Technology</option>
+                <option value="BE">BE</option>
+                <option value="BCA">BCA</option>
+                <option value="BSC">BSC</option>
+            </select>
+            
+            <br><br>
+
+            <label for="Experience :">Experience :</label>
+            <br>
+            <select name="Experience" id="Experience">
+                <option value="0">--Select--</option>
+                <option value="1">1 Year</option>
+                <option value="2">2 Year</option>
+                <option value="3">3 Year</option>
+                <option value="4">4 Year</option>
+            </select>
+            
+            <br><br>
+            
+            <label for="Code_langiage :">Coding Languages :</label>
+            <br>
+            <input style="width: 20px; height:20px;" type="checkbox" id="Code_language" name="Code_language" value="C/C++">
+            <label class="class1" for="Code_language">C/C++</label><br>
+            <input style="width: 20px; height:20px;" type="checkbox" id="Code_language" name="Code_language" value="Java">
+            <label class="class1" for="Code_language">Java</label><br>
+            <input style="width: 20px; height:20px;" type="checkbox" id="Code_language" name="Code_language" value="C#">
+            <label  class="class1" for="Code_language">C#</label><br>
+            <input style="width: 20px; height:20px;" type="checkbox" id="Code_language" name="Code_language" value="PHP">
+            <label class="class1" for="Code_language">PHP</label><br>
+            <input style="width: 20px; height:20px;" type="checkbox" id="Code_language" name="Code_language" value="Python">
+            <label class="class1" for="Code_language">Python</label><br>
+            
+            <br><br>
+
+            <button type="submit" class="registerbtn"> Submit</button> 
+        </div> 
+        </form> 
+    </body> 
+</html>    
